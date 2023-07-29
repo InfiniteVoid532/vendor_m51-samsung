@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/m51
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/m51/proprietary/vendor/bin/factory.ssc:$(TARGET_COPY_OUT_VENDOR)/bin/factory.ssc \
     vendor/samsung/m51/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/samsung/m51/proprietary/vendor/etc/audconf/OPEN/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Bluetooth_cal.acdb \
     vendor/samsung/m51/proprietary/vendor/etc/audconf/OPEN/Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Codec_cal.acdb \
@@ -115,7 +116,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
     vendor/samsung/m51/proprietary/vendor/lib/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_in_system_lib.so \
     vendor/samsung/m51/proprietary/vendor/lib/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqfp_sensortest.so \
+    vendor/samsung/m51/proprietary/vendor/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so \
+    vendor/samsung/m51/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/samsung/m51/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
+    vendor/samsung/m51/proprietary/vendor/lib/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.grip.so \
+    vendor/samsung/m51/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/samsung/m51/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/com.qti.eeprom.n24s64b_imx616.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.n24s64b_imx616.so \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/com.samsung.sensor.gc5035.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensor.gc5035.so \
@@ -174,5 +179,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
     vendor/samsung/m51/proprietary/vendor/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so \
     vendor/samsung/m51/proprietary/vendor/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/samsung/m51/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/samsung/m51/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
