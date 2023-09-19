@@ -110,6 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/proprietary/vendor/lib/camera/components/com.wrapper.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.wrapper.stats.pdlib.so \
     vendor/samsung/m51/proprietary/vendor/lib/camera/components/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/libdepthmapwrapper.so \
     vendor/samsung/m51/proprietary/vendor/lib/camera/components/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/libmmcamera_cac3.so \
+    vendor/samsung/m51/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
     vendor/samsung/m51/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/m51/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
     vendor/samsung/m51/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
@@ -173,6 +174,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.wrapper.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.wrapper.stats.pdlib.so \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/components/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/libdepthmapwrapper.so \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/components/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/libmmcamera_cac3.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/samsung/m51/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/m51/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
     vendor/samsung/m51/proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
